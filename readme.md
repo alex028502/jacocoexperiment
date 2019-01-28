@@ -12,6 +12,9 @@
 ./project.sh run 8080
 ```
 
+Then go to http://localhost:8080/jacoexperiment or https://localhost:8080/jacocoexperiment/any-thing
+The servlet has an `if` in it so that we can see if we are measuring coverage successfully.
+
 ##### to try to run container with coverage go
 
 ```
