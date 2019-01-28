@@ -36,3 +36,11 @@ Error occurred during initialization of VM
 
 So probably need to solve both issues.
 
+#### to debug
+
+if you want to look around a new copy of the container that this gets build to see what files
+are there go like this (after building the image as above)
+
+```
+./project.sh attach
+```
